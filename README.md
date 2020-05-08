@@ -1,6 +1,6 @@
 #  MPLS care attendant Daily Dog Log
 
-The MPLS care attendant Daily Dog Log is a program that allows the care attendant assigned to a dog to enter a daily log for each Dog in MPLS Dogboarding Academy's care.  Listed below is a chart with the name of each care attendant and the name of each dog in thier care.  The program is going to allow the care attendant to enter in the total amount of time in minutes spent with dog each day, the services provided to dog(bath or grooming), and a general note about dog's day and tempermant.  At the conclusion of the progam the program will output the care attendant and all the logs entered by the care attendant. The program also provides you with a summary of the dog with the most care care minutes.
+The MPLS care attendant Daily Dog Log is a program that allows the care attendant manager to  enter daily log for each Dog in MPLS Dogboarding Academy's care.  Listed below is a chart with the name of each care attendant and the name of each dog in thier care.  The program allows the manager to enter the total amount of time spent with the dog, the services provided to dog(bath, grooming or none), and a general note about dog's day and tempermant.  Once the manager is done entering all logs, the program will display all the logs grouped by care attendant. The program also provides you with a summary of the dog with the most care minutes.
 
 | ID # | Care Attendant Name | Dogs in Care                                         |
 |------|---------------------|------------------------------------------------------|
@@ -9,9 +9,7 @@ The MPLS care attendant Daily Dog Log is a program that allows the care attendan
 | 8    | Christopher Isaac   | [325 - Gunner]                                       |
 | 44   | Mya Lynn            | [388 - Daisy][390 - Danger]                          |
 
-## Requirements
 
-Construct a program that prompts the user for a care attendants id number along with the   Either uppercase or lowercase initials are valid.  While the user does not type Z, continue by prompting for the amount of a sale.  Issue an error message for any invalid initials entered.  Keep a running total of the amounts sold by each care attendant.  After the user types Z or z for an initial, display each agent's total, a grand total for all sales, and the name of the salesperson with the highest total.
 
 ## Submission
 Please submit a zipped folder containing your c# console application and the URL to your Github repository.
