@@ -15,16 +15,16 @@ namespace assignment_four
             int timeWithDog;
             char services;
             string dogNote;
-            const string END = "999";
+            const int END = 999;
             int x = 0;
 
             //List that contains info objects instances
             List<Log> dogCareLog = new List<Log>();
 
             //Intake of data
-            while(x > x;){  //Loop that allows for continuous input of data
+            while(x < x + 1){  //Loop that allows for continuous input of data
                 Console.WriteLine("Please input the care attendant ID (input 999 to exit):");
-                attendantId = Convert.toInt32(Console.ReadLine());
+                attendantId = Convert.ToInt32(Console.ReadLine());
                 if(attendantId != END){ //Statement that checks if the user input 999 to end the loop
                     Console.WriteLine("Please input the care attendant's name:");
                     attendantName = Console.ReadLine();
@@ -39,7 +39,11 @@ namespace assignment_four
                     Console.WriteLine("Please input a general note about the dog's day and temperment:");
                     dogNote = Console.ReadLine();
                     //Adding the data to the Log list
-                    
+                    Log aLog = new Log(attendantId, attendantName, dogId, dogName, timeWithDog, services, dogNote); //Creating an object instance of the dog object using the using input data
+                    dogCareLog.Add(aLog); //Adding the created Log object to the dogCareLog list
+                }
+                else{
+                    break; //This stops the loop if the sentinel value is entered
                 }
             }
         }
