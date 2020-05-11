@@ -36,8 +36,13 @@ namespace assignment_four
                     timeWithDog = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Please input the services provided to the dog:\n[B] Bath, [G] Grooming, [N] None");
                     services = Convert.ToChar(Console.ReadLine());
+                        while(services != 'B' && services != 'G' && services != 'N'){
+                            Console.WriteLine("Please input a a valid service:\n[B] Bath, [G] Grooming, [N] None");
+                            services = Convert.ToChar(Console.ReadLine());
+                        }
                     Console.WriteLine("Please input a general note about the dog's day and temperment:");
                     dogNote = Console.ReadLine();
+                    Console.WriteLine(""); //This added in for spacing between instances of the loop
                     //Adding the data to the Log list
                     Log aLog = new Log(attendantId, attendantName, dogId, dogName, timeWithDog, services, dogNote); //Creating an object instance of the dog object using the using input data
                     dogCareLog.Add(aLog); //Adding the created Log object to the dogCareLog list
