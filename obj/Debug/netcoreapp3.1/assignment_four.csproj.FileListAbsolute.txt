@@ -1,0 +1,11 @@
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.exe
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.deps.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.runtimeconfig.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.runtimeconfig.dev.json
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.dll
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\bin\Debug\netcoreapp3.1\assignment_four.pdb
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\obj\Debug\netcoreapp3.1\assignment_four.csprojAssemblyReference.cache
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\obj\Debug\netcoreapp3.1\assignment_four.AssemblyInfoInputs.cache
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\obj\Debug\netcoreapp3.1\assignment_four.AssemblyInfo.cs
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\obj\Debug\netcoreapp3.1\assignment_four.dll
+C:\Users\ahlmatj\Desktop\Programming Fund II\assignment_four\obj\Debug\netcoreapp3.1\assignment_four.pdb
