@@ -15,9 +15,24 @@ namespace assignment_four
             int timeWithDog;
             char services;
             string dogNote;
+            const string END = "999";
+            int x = 0;
+
+            //List that contains info objects instances
+            List<Log> dogCareLog = new List<Log>();
+
+            //Intake of data
+            while(x > x;){  //Loop that allows for continuous input of data
+                Console.WriteLine("Please input the Care Attendant ID (input 999 to exit):");
+                attendantId = Convert.toInt32(Console.ReadLine());
+                if(attendantId != END){ //Statement that allows the user to input 999 to end the loop
+
+                }
+            }
         }
     }
-    class Dog
+    //Separate class used for making the log object
+    class Log
     {
         public int attendantId {get;set;}
         public string attendantName {get; set;}
