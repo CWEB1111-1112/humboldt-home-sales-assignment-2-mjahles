@@ -23,10 +23,23 @@ namespace assignment_four
 
             //Intake of data
             while(x > x;){  //Loop that allows for continuous input of data
-                Console.WriteLine("Please input the Care Attendant ID (input 999 to exit):");
+                Console.WriteLine("Please input the care attendant ID (input 999 to exit):");
                 attendantId = Convert.toInt32(Console.ReadLine());
-                if(attendantId != END){ //Statement that allows the user to input 999 to end the loop
-
+                if(attendantId != END){ //Statement that checks if the user input 999 to end the loop
+                    Console.WriteLine("Please input the care attendant's name:");
+                    attendantName = Console.ReadLine();
+                    Console.WriteLine("Please input the dog's ID number:");
+                    dogId = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Please input the dog's name:");
+                    dogName = Console.ReadLine();
+                    Console.WriteLine("Please input the time spent caring for the dog:");
+                    timeWithDog = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Please input the services provided to the dog:\n[B] Bath, [G] Grooming, [N] None");
+                    services = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine("Please input a general note about the dog's day and temperment:");
+                    dogNote = Console.ReadLine();
+                    //Adding the data to the Log list
+                    
                 }
             }
         }
