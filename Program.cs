@@ -12,7 +12,7 @@ namespace assignment_four
             string attendantName;
             int dogId;
             string dogName;
-            int timeWithDog;
+            double timeWithDog;
             char services;
             string dogNote;
             const int END = 999;
@@ -32,8 +32,8 @@ namespace assignment_four
                     dogId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Please input the dog's name:");
                     dogName = Console.ReadLine();
-                    Console.WriteLine("Please input the time spent caring for the dog:");
-                    timeWithDog = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Please input the time spent caring for the dog (in hours):");
+                    timeWithDog = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Please input the services provided to the dog:\n[B] Bath, [G] Grooming, [N] None");
                     services = Convert.ToChar(Console.ReadLine());
                         while(services != 'B' && services != 'G' && services != 'N'){
@@ -60,11 +60,11 @@ namespace assignment_four
         public string attendantName {get; set;}
         public int wooferId {get; set;}
         public string wooferName {get; set;}
-        public int timeWithWoofer {get; set;}
+        public double timeWithWoofer {get; set;}
         public char services {get; set;}
         public string wooferNote {get; set;}
 
-        public Log(int attendantId, string attendantName, int wooferId, string wooferName, int timeWithWoofer, char services, string wooferNote)
+        public Log(int attendantId, string attendantName, int wooferId, string wooferName, double timeWithWoofer, char services, string wooferNote)
         {
             this.attendantId = attendantId;
             this.attendantName = attendantName;
